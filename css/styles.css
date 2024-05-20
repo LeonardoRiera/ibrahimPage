@@ -1,0 +1,65 @@
+/* body */
+body {
+  background-color: black;
+}
+
+/* header */
+/* nav */
+.ibraNav {
+  font-size: 6vmin;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.letraNav {
+  font-size: 3.5vmin;
+}
+
+/* parte central */
+.bandaLogo {
+  display: flex;
+  justify-content: center;
+}
+.bandaLogo img {
+  height: 55vmax;
+  filter: saturate(155%);
+  filter: brightness(180%);
+  filter: contrast(130%);
+  margin-top: -5vmax;
+}
+
+/* estructura MEDIAS-QUERIES  referencia en Breackpoints de Bootstrap */
+/* 
+    xxs: 360;
+    xs: 400px,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px */
+/* de 1401 px en adelante */
+/* media - querie  --  xxl - */
+/* media - querie  --  xl - */
+@media only screen and (max-width: 1200px) {
+  .bandaLogo img {
+    height: 70vmax;
+  }
+}
+/* media - querie  --  lg - */
+/* media - querie  --  md - */
+/* media - querie  --  sm - */
+@media only screen and (max-width: 576px) {
+  /* banda logo header */
+  .bandaLogo img {
+    height: 60vmax;
+  }
+}
+/* media - querie  --  xs - */
+@media only screen and (max-width: 400px) {
+  /* banda logo header */
+  .bandaLogo img {
+    height: 50vmax;
+  }
+}
+/* media - querie  --  xxs - */
+
+/*# sourceMappingURL=styles.css.map */

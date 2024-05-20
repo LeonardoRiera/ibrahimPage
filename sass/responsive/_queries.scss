@@ -1,0 +1,112 @@
+/* estructura MEDIAS-QUERIES  referencia en Breackpoints de Bootstrap */
+/* 
+    xxs: 360;
+    xs: 400px,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px */
+
+    /* de 1401 px en adelante */
+
+    @media only screen and (min-width: 1401px) {
+
+      
+
+      
+
+    }
+
+
+    /* media - querie  --  xxl - */
+    @media only screen and (max-width: 1400px) {
+
+      
+
+      
+
+    }
+
+
+
+
+    /* media - querie  --  xl - */
+    @media only screen and (max-width: 1200px) {
+
+        .bandaLogo {
+   
+    
+            img {
+            height: 70vmax;
+            }
+        }
+       
+
+
+    }
+    
+
+
+
+    /* media - querie  --  lg - */
+    @media only screen and (max-width: 992px) {
+
+
+    }
+
+
+
+    
+   
+    /* media - querie  --  md - */
+    @media only screen and (max-width: 768px) {
+        
+        
+
+    }
+
+
+    
+   
+    /* media - querie  --  sm - */
+
+    @media only screen and (max-width: 576px) {
+
+
+        /* banda logo header */
+        .bandaLogo {
+   
+    
+            img {
+            height: 60vmax;
+           
+            }
+        }
+
+    }
+
+
+
+    
+    /* media - querie  --  xs - */
+    @media only screen and (max-width: 400px) {
+        /* banda logo header */
+        .bandaLogo {
+   
+    
+            img {
+            height: 50vmax;
+           
+            }
+        }
+
+    }
+
+
+
+    
+    /* media - querie  --  xxs - */
+    @media only screen and (min-width: 360px) {
+
+    }

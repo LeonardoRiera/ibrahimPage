@@ -1,0 +1,36 @@
+
+/* body */
+
+body {
+    background-color: black;
+}
+
+
+
+/* header */
+
+/* nav */
+.ibraNav {
+    font-size: 6vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.letraNav {
+    font-size: 3.5vmin;
+}
+
+/* parte central */
+
+.bandaLogo {
+    display: flex;
+    justify-content: center;
+    
+    img {
+        height: 55vmax;
+       
+        filter: saturate(155%);
+        filter: brightness(180%);
+        filter: contrast(130%);
+        margin-top: -5vmax;
+    }
+}

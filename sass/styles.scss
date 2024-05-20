@@ -1,0 +1,14 @@
+//import de todas las paginas de sass
+
+@import "global";
+@import "mixin";
+@import "./index-page/landing";
+
+//queries siempre va al ultimo de los import
+@import "./responsive/queries";
+
+
+
+
+
+
